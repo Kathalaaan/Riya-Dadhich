@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riya Dadhich</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <!-- Favicon -->
+   <link rel="icon" href="images/favi.png" type="image/png"> <!-- Add this line -->
+
+   <!-- Favicon for 16x16 px - Browser Tab -->
+   <link rel="icon" href="images/favi-16x16.png" sizes="16x16" type="image/png">
+   
+   <!-- Favicon for 32x32 px - High-DPI Displays (Retina) -->
+   <link rel="icon" href="images/favi-32x32.png" sizes="32x32" type="image/png">
+   
+   <!-- Favicon for 48x48 px - Windows Desktop -->
+   <link rel="icon" href="images/favi-48x48.png" sizes="48x48" type="image/png">
+   
+   <!-- Favicon for 64x64 px - High-Resolution Displays -->
+   <link rel="icon" href="images/favi-64x64.png" sizes="64x64" type="image/png">
+   
+   <!-- For iOS Devices (Apple Touch Icon) -->
+   <link rel="apple-touch-icon" href="images/favi-180x180.png">
+   
+   <!-- For Android Devices (Chrome Web App) -->
+   <link rel="icon" href="images/favi-192x192.png" sizes="192x192" type="image/png">
+   
+   <!-- Favicon for Windows Tiles (Microsoft) -->
+   <meta name="msapplication-TileImage" content="images/favi-144x144.png">
+   <meta name="msapplication-TileColor" content="#ffffff">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img class="star" src="./img/star.png" alt="">
+                <div>Riya Dadhich</div>
+            </div>
+        
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        
+            <!-- Menu Items -->
+            <ul class="menu-items" id="menu">
+                <li><a href="#about">about</a></li>
+                <li><a href="#page2">services</a></li>
+                <li><a href="#review">review</a></li>
+                <li><a href="#connect">contact</a></li>
+            </ul>
+        </nav>
+        
+        
+        
+    </header>  
+    
+    <section class="section-one">
+       
+        <div class="container section-one-container">
+
+            <div class="left-side">
+                
+                <div class="title">
+                    <h1>I help you strategize,
+                        <img src="./img/star.png" alt="" class="star">
+                          <br> grow, and thrive  <br>  in your career journey.</h1>
+                </div>
+
+                <p class="p">
+                    Why wait? Hit the button below and let's get started on your transformation!
+                   
+                </p>
+                
+                <a href="https://topmate.io/riya_dadhich" target="_blank">
+                    <button class="ultimate-galaxy-button">
+                        <span>Work With Me</span>
+                        <div class="stars"></div>
+                        <div class="shooting-star"></div>
+                    </button>
+                </a>
+                
+                  
+                  <style>
+                  .ultimate-galaxy-button {
+                    position: relative;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 12px 24px;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: #ffffff;
+                    background: radial-gradient(circle at center, #111111, #000000, #000000);
+                    border: none;
+                    border-radius: 18px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    box-shadow: 0 0 20px #ffffff66, 0 0 40px #ffffff33, 0 0 60px #ffffff22;
+                    transition: background 0.5s, transform 0.3s, box-shadow 0.5s;
+                    min-width: 180px;
+                    width: auto;
+                    animation: intensePulse 2s infinite alternate;
+                    perspective: 800px;
+                  }
+                  
+                  .ultimate-galaxy-button:hover {
+                    background: radial-gradient(circle at center, #222222, #000000, #000000);
+                    box-shadow: 0 0 30px #ffffffaa, 0 0 60px #ffffff88, 0 0 80px #ffffff66;
+                    transform: scale(1.1) rotateX(10deg) rotateY(5deg);
+                  }
+                  
+                  .ultimate-galaxy-button span {
+                    position: relative;
+                    z-index: 2;
+                  }
+                  
+                  .ultimate-galaxy-button .stars,
+                  .ultimate-galaxy-button .shooting-star {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 400%;
+                    height: 400%;
+                    background: transparent;
+                    pointer-events: none;
+                    overflow: hidden;
+                    z-index: 1;
+                  }
+                  
+                  .ultimate-galaxy-button .stars::before,
+                  .ultimate-galaxy-button .stars::after {
+                    content: "";
+                    position: absolute;
+                    top: -50%;
+                    left: -50%;
+                    width: 200%;
+                    height: 200%;
+                    background: radial-gradient(#ffffff 1px, transparent 1px),
+                                radial-gradient(#ffffff 1px, transparent 1px);
+                    background-size: 20px 20px, 35px 35px;
+                    opacity: 0.4;
+                    animation: moveStars 50s linear infinite, twinkle 1.5s infinite alternate;
+                  }
+                  
+                  .ultimate-galaxy-button .stars::after {
+                    opacity: 0.3;
+                    animation: moveStars 80s linear infinite reverse, twinkle 2s infinite alternate;
+                  }
+                  
+                  /* Shooting Star Animation */
+                  .ultimate-galaxy-button .shooting-star::before {
+                    content: "";
+                    position: absolute;
+                    top: 20%;
+                    left: -10%;
+                    width: 100px;
+                    height: 2px;
+                    background: linear-gradient(90deg, #ffffff, transparent);
+                    transform: rotate(45deg);
+                    animation: shoot 5s linear infinite;
+                  }
+                  
+                  @keyframes moveStars {
+                    0% { transform: translate(0, 0); }
+                    100% { transform: translate(50%, 50%); }
+                  }
+                  
+                  @keyframes twinkle {
+                    0%, 100% { opacity: 0.3; }
+                    50% { opacity: 0.6; }
+                  }
+                  
+                  @keyframes intensePulse {
+                    0% {
+                      box-shadow: 0 0 20px #ffffff66, 0 0 40px #ffffff33;
+                    }
+                    100% {
+                      box-shadow: 0 0 40px #ffffffaa, 0 0 80px #ffffff77;
+                    }
+                  }
+                  
+                  @keyframes shoot {
+                    0% {
+                      transform: translateX(0) translateY(0) rotate(45deg);
+                      opacity: 1;
+                    }
+                    100% {
+                      transform: translateX(300%) translateY(300%) rotate(45deg);
+                      opacity: 0;
+                    }
+                  }
+                  
+                 /* Responsive Design */
+@media (max-width: 600px) {
+    .ultimate-galaxy-button {
+      padding: 10px 20px; /* Even smaller padding for small screens */
+      font-size: 1rem;  /* Reduced font size for small screens */
+      min-width: 160px;  /* Slightly smaller minimum width */
+      border-radius: 16px;
+    }
+  }
+                  </style>
+                  
+                  
+                  
+                
+                  
+                  
+                  
+              
+             
+                  
+                  
+        
+            </div>
+            <div class="right-side pyramid">
+                <img src="./img/gold.png" alt="" class="gold glow image">
+            </div>
+        </div>
+    </section>
+
+<section>
+    
+    
+</section>
+ 
+    <section>
+        <div class="container" id="about">
+            <div class="left-side hand">
+                <div id="page1"></div>
+                <img src="./img/diamond.png" alt="" class="gold glow image">
+            </div>
+              
+            <div class="right-side">
+                <img src="./img/star.png" class="star star-s2" alt="">
+                <div class="title">
+                    <h1>Hi, I’m  <br>  Riya Dadhich</h1>
+                    <h2>HR specialist, LinkedIn creator, writer, and dancing philanthropist.</h2>
+                </div>
+
+                <p class="p">
+                    I help people find their spark (and maybe a great coffee spot too). With 22K+ in my LinkedIn tribe and 6M+ impressions, I’ve told stories, mentored job-seekers, published books, and earned the Women Achiever Award 2024.
+
+Beyond the titles, I’m a traveler, dancer, NGO volunteer, tree planter, and full-time life enthusiast.
+My mantra? Work with heart. Dance with soul. Give freely.
+
+Let’s make magic together — one story, smile, and sapling at a time.
+
+
+                </p>
+
+                <div class="line"></div>
+
+                <p class="p">
+                    
+                </p>
+                <a href="https://topmate.io/riya_dadhich" target="_blank">
+                    <button class="ultimate-galaxy-button">
+                        <span>Work With Me</span>
+                        <div class="stars"></div>
+                        <div class="shooting-star"></div>
+                    </button>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+<section> 
+   
+    <div id="page2">
+    <div>
+        <h2>
+            <span>How</span>
+            <span>I</span>
+            <span>can</span>
+            <span>help</span>
+            <span>you</span>
+            <span>/</span>
+        </h2>
+    </div>
+    <div class="serviText">
+        <p class="para">(Services)</p>
+        <div class="serviText2">
+            <p>Struggling with hiring, brand visibility, or LinkedIn growth? I help people and brands thrive through smart HR, meaningful collabs, and content that connects—built with heart, strategy, and impact.</p>
+        </div>
+
+    </div>
+    <div class="services">
+        <div class="one border ek">
+            <div class="oneL">
+                <h2>(01)</h2>
+            </div>
+            <div class="oneR">
+                <h3>HR Solutions</h3>
+                <p>Empowering careers starts with thoughtful hiring and human connection. From resume reviews to full-cycle recruitment strategies, I bring heart and insight to every HR touchpoint—ensuring both companies and candidates thrive.
+                </p>
+                <div class="list">
+                    <div class="listItem">
+                        <span>01</span>
+                        Talent Acquisition & Screening
+                    </div>
+                    <div class="listItem">
+                        <span>02</span>
+                        Career Coaching & Resume Uplift
+
+                    </div>
+                    <div class="listItem bt">
+                        <span>03</span>
+                        Workplace Culture Initiatives
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="one border do">
+            <div class="oneL">
+                <h2>(02 )</h2>
+            </div>
+            <div class="oneR">
+                <h3>Brand Collaborations
+                </h3>
+                <p>I don’t just promote brands—I tell their stories. With a loyal, niche-driven audience and a genuine voice, I craft collaborations that feel organic, build trust, and spark engagement. Let’s create campaigns that actually convert.
+                </p>
+                <div class="list">
+                    <div class="listItem">
+                        <span>01</span>
+                        Influencer-Led Campaigns
+                    </div>
+                    <div class="listItem">
+                        <span>02</span>
+                        Storytelling-Focused Promotions
+
+                    </div>
+                    <div class="listItem bt">
+                        <span>03</span>
+                        Long-Term Brand Partnerships
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="one border tin">
+            <div class="oneL">
+                <h2>(03)</h2>
+            </div>
+            <div class="oneR">
+                <h3>LinkedIn Content Creation</h3>
+                <p>With a community of 22K+ and 6M+ impressions, I create content that connects, educates, and inspires. From viral posts to strategic personal branding—your message deserves to be seen, and I know how to get it there.
+
+
+                </p>
+                <div class="list">
+                    <div class="listItem">
+                        <span>01</span>
+                        Content Strategy & Ghostwriting
+                    </div>
+                    <div class="listItem">
+                        <span>02</span>
+                        Personal Branding & Profile Revamp
+                    </div>
+
+                    <div class="listItem">
+                        <span>03</span>
+                        Viral-Ready LinkedIn Posts
+                    </div>
+                  
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+</div>
+
+</section>
+
+<section>
+    <div class="container">
+        <div class="left-side">
+            <div class="title">
+                <h1> SShakti Book<br> </h1>
+                <h2>SShakti: Modern Woman. Strength. Grace.</h2>
+            </div>
+            <div class="type g-type">
+                <p>Amazon</p>
+                <p>Available on Amazon, click the below button to buy</p> <!-- Removed the extra </button> tag -->
+                <a href="https://www.amazon.in/dp/8119609425?ref_=cm_sw_r_cp_ud_dp_1W67ESP29N6G14DPHSBM&fbclid=PAZXh0bgNhZW0CMTEAAadmBIHDeIfDNmbOD-DNAxurvbq8N1vI1DKGTGuDyWga2zG7c5yEJNfudQRZlw_aem_3wlq7kJRRGf7RMW1huWsPw" target="_blank">
+                    <button class="ultimate-galaxy-button">
+                      <span>Buy on Amazon</span>
+                      <div class="stars"></div>
+                      <div class="shooting-star"></div>
+                    </button>
+                  </a>
+            </div>
+
+            <div class="line line-blue"></div>
+
+            <div class="type s-type">
+                <p>FlipKart</p>
+                <p>
+                    Available on FlipKart, click the below button to buy
+                </p>
+                <a href="https://www.flipkart.com/sshakti/p/itmc0a131d2fd386?pid=9788119609420&lid=LSTBOK9788119609420D6OQLM&marketplace=FLIPKART&q=Poetry+book+SShakti&store=bks&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=fb5e2981-8736-41c6-8adb-0a8b4ec33755.9788119609420.SEARCH&ppt=hp&ppn=homepage&ssid=9iyba73p0w0000001746107123442&qH=38b6e8220574707c" target="_blank">
+                    <button class="ultimate-galaxy-button">
+                      <span>Buy on Flipkart</span>
+                      <div class="stars"></div>
+                      <div class="shooting-star"></div>
+                    </button>
+                  </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="right-side rotation">
+            <img  src="./img/42.png" alt="" class="gold glow image">>
+        </div>
+    </div>
+</section>
+ 
+<section>
+    <!-- Testimonial Section Start -->
+    <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;" id="review">
+      <h2 class="title">✨ What Our Readers Say</h2>
+      <p class="display-7">Real experiences from our happy readers</p>
+    </div>
+  
+    <div class="testimonial-section">
+      <div class="testimonial-container">
+        <button class="prev-btn">❮</button>
+        <div class="testimonial-slider">
+          <div class="testimonial-track">
+            <div class="testimonial-box">
+              <div class="testimonial-profile">
+                <img src="img/testimonial-1.png" alt="Client Image">
+                <div>
+                  <h5 class="name">Naveen Kumar</h5>
+                  <p class="profession">Data Analyst</p>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-content">"Raw, radiant, and empowering—SShakti speaks straight to every woman's soul."</p>
+            </div>
+  
+            <div class="testimonial-box">
+              <div class="testimonial-profile">
+                <img src="img/testimonial-2.png" alt="Client Image">
+                <div>
+                  <h5 class="name">Rakesh</h5>
+                  <p class="profession">Software Developer</p>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-content">"Each poem heals like a hug—SShakti is poetry with purpose."</p>
+            </div>
+  
+            <div class="testimonial-box">
+              <div class="testimonial-profile">
+                <img src="img/testimonial-3.png" alt="Client Image">
+                <div>
+                  <h5 class="name">Akash</h5>
+                  <p class="profession">Food Blogger</p>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-content">"SShakti blends pain and power into a fierce celebration of womanhood."</p>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="testimonial-profile">
+                  <img src="img/testimonial-5.png" alt="Client Image">
+                  <div>
+                    <h5 class="name">Logesh</h5>
+                    <p class="profession">Logistics Head</p>
+                    <div class="testimonial-stars">★★★★★</div>
+                  </div>
+                </div>
+                <p class="testimonial-content">"From heartbreak to healing—SShakti guides you like a divine whisper."</p>
+              </div>
+            <div class="testimonial-box">
+              <div class="testimonial-profile">
+                <img src="img/testimonial-4.png" alt="Client Image">
+                <div>
+
+                  <h5 class="name">Senthil Kumar</h5>
+                  <p class="profession">Mechanic Engineer</p>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+              <p class="testimonial-content">"A poetic rollercoaster of emotion, strength, and sacred femininity."</p>
+            </div>
+          </div>
+        </div>
+        <button class="next-btn">❯</button>
+      </div>
+    </div>
+  
+    <style>
+      .testimonial-section {
+        text-align: center;
+        padding: 50px 20px;
+        background: transparent;
+        position: relative;
+      }
+  
+      .testimonial-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        width: 100%;
+      }
+  
+      .prev-btn,
+      .next-btn {
+        background-color: rgba(255, 255, 255, 0.6);
+        border: none;
+        color: #333;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        z-index: 2;
+      }
+  
+      .prev-btn:hover,
+      .next-btn:hover {
+        background-color: white;
+      }
+  
+      .testimonial-slider {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+      }
+  
+      .testimonial-track {
+        display: flex;
+        gap: 20px;
+        transition: transform 0.5s ease-in-out;
+      }
+  
+      .testimonial-box {
+        background: white;
+        border-radius: 40px 10px 40px 10px;
+        padding: 30px;
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 300px;
+        color: black;
+        text-align: left;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .testimonial-box:hover {
+        transform: scale(1.08);
+      }
+  
+      .testimonial-profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+  
+      .testimonial-profile img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+        border: 4px solid #ff9800;
+      }
+  
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      .profession {
+        font-size: 14px;
+        color: #666;
+      }
+  
+      .testimonial-stars {
+        color: #ff9800;
+        font-size: 18px;
+        margin-top: 5px;
+      }
+  
+      .testimonial-content {
+        font-size: 16px;
+        font-style: italic;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+  
+      @media (max-width: 768px) {
+        .testimonial-box {
+          max-width: 90%;
+        }
+  
+        .prev-btn,
+        .next-btn {
+          display: none;
+        }
+      }
+    </style>
+  
+    <script>
+      const track = document.querySelector('.testimonial-track');
+      const prevButton = document.querySelector('.prev-btn');
+      const nextButton = document.querySelector('.next-btn');
+      const testimonials = document.querySelectorAll('.testimonial-box');
+  
+      let index = 0;
+  
+      function getTestimonialWidth() {
+        const box = testimonials[0];
+        return box.offsetWidth + 20; // Width + gap
+      }
+  
+      function updateSlider() {
+        const width = getTestimonialWidth();
+        track.style.transform = `translateX(-${index * width}px)`;
+      }
+  
+      nextButton.addEventListener('click', () => {
+        index = (index + 1) % testimonials.length;
+        updateSlider();
+      });
+  
+      prevButton.addEventListener('click', () => {
+        index = (index - 1 + testimonials.length) % testimonials.length;
+        updateSlider();
+      });
+  
+      setInterval(() => {
+        index = (index + 1) % testimonials.length;
+        updateSlider();
+      }, 4000);
+  
+      window.addEventListener('resize', updateSlider);
+      window.addEventListener('load', updateSlider);
+    </script>
+  </section>
+
+
+    <section>
+        <div class="container">
+            <div class="left-side">
+                <img src="./img/star.png" class="star-s4 star" alt="">
+                <div class="title">
+                    <h1>My Achievements</h1>
+                    <h2>Moments That Matter</h2>
+                </div>
+            </div>
+           
+        </div>
+        <div class="card-container">
+            <div class="card card-1">
+                <div class="rotation">
+                    <img src="./img/13.png" alt="" class="img-card image">
+                </div>
+                <div class="color">Career Catalyst</div>
+                <span>HR</span>
+            </div>
+            
+            <div class="card card-2">
+                <div class="rotation">
+                    <img src="./img/11.png" alt="" class="img-card image">
+                </div>
+                <div class="color">Women of Impact</div>
+                <span>Awardee </span>
+            </div>
+            <div class="card card-3">
+                <div class="rotation">
+                    <img src="./img/12.png" alt="" class="img-card image">
+                </div>
+                <div class="color">SShakti Book</div>
+                <span>Author</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+       
+            
+        <div class="scroll-section horizontal-section section">
+          <div class="wrapper">
+            <div role="list" class="list">
+              <div role="listitem" class="item">
+                <div class="item_content">
+                 
+                  <h1>🕶️ Exciting Brand Collaboration with Lenskart!</h1>
+                  <p class="item_p">
+                    Seeing the world in style with @lenskart 👓✨
+Excited to partner with a brand that blends comfort and fashion so effortlessly. These frames are more than just eyewear — they’re a vibe!
+                  </p>
+                </div>
+                <img src="./img/1.png" class="item_media" alt="Wildlife in Action">
+              </div>
+      
+              <div role="listitem" class="item">
+                <div class="item_content">
+                
+                  <h1>Exciting Brand Collaboration with Everiday!</h1>
+                  <p class="item_p">
+                    Used to think stress and success went hand in hand.
+Skipped meals, late nights, constant fatigue — I called it “hustle.”
+
+But real growth? It’s sustainable.
+That’s why I connected with Everiday — wellness that fits into your day, not fights for space in it.
+                  </p>
+                </div>
+                <img src="./img/2.png" class="item_media" alt="Nature’s Symphony">
+              </div>
+      
+             
+            </div>
+          </div>
+        </div>
+       
+       
+
+          <!-- Animated number Section -->
+<section class="connection-section" id="contact">
+    <div class="connect-container">
+        <h2 class="connect-title"><span>Trusted</span> by Thousands</h2>
+  
+      <div class="stats">
+        <div class="stat" data-target="1200">
+          <i class="fab fa-instagram icon"></i>
+          <div class="stat-number">0</div>
+          <div class="stat-label">Instagram Followers</div>
+        </div>
+        <div class="stat" data-target="22000">
+          <i class="fab fa-linkedin-in icon"></i>
+          <div class="stat-number">0</div>
+          <div class="stat-label">LinkedIn Followers</div>
+        </div>
+        
+        <div class="stat" data-target="6000000">
+          <i class="fas fa-chart-line icon"></i>
+          <div class="stat-number">0</div>
+          <div class="stat-label">Total Impressions</div>
+        </div>
+      </div>
+  
+     
+    </div>
+  </section>
+  
+  <!-- Font and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Styles -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+  
+    .connection-section {
+      background:transparent;
+      padding: 60px 20px;
+      text-align: center;
+    }
+  
+    .connect-title {
+      font-size: 2.8em;
+      color: #ebf0f5;
+      margin-bottom: 40px;
+    }
+  
+    .connect-title span {
+      color: #f8ecec;
+    }
+  
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+  
+    .stat {
+      background: #101010;
+      padding: 30px 25px;
+      width: 220px;
+      border-radius: 15px;
+      box-shadow: 
+  0 0 10px rgba(5, 119, 242, 0.5),
+  0 0 20px rgba(5, 119, 242, 0.3),
+  0 0 30px rgba(5, 119, 242, 0.2);
+      transition: transform 0.3s ease;
+    }
+    
+    .stat:hover {
+      transform: translateY(-5px);
+    }
+  
+    .stat .icon {
+      font-size: 2.5em;
+      color: #e1e8f0;
+      margin-bottom: 10px;
+    }
+  
+    .stat-number {
+      font-size: 2em;
+      font-weight: bold;
+      color: #dee3e8;
+    }
+  
+    .stat-label {
+      font-size: 1em;
+      color: #444;
+      margin-top: 5px;
+    }
+  
+    .social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  
+    .social-icons li a {
+      font-size: 1.8em;
+      color: #191b1e;
+      position: relative;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+  
+    .social-icons li a:hover {
+      transform: scale(1.2);
+    }
+  
+    .social-icons .tooltip {
+      visibility: hidden;
+      background-color: #0f1011;
+      color: #1b1717;
+      font-size: 0.75em;
+      text-align: center;
+      padding: 4px 10px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      opacity: 0;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+  
+    .social-icons li a:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .connect-title {
+        font-size: 2em;
+      }
+  
+      .stat {
+        width: 80%;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      .stats {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .social-icons {
+        gap: 20px;
+      }
+    }
+  </style>
+  
+  <!-- Scroll-Triggered Count Animation Script -->
+  <script>
+    const statElements = document.querySelectorAll('.stat');
+  
+    const animateCounters = (entry) => {
+      const statNumber = entry.querySelector('.stat-number');
+      const target = +entry.getAttribute('data-target');
+      let count = 0;
+      const duration = 2000;
+      const stepTime = Math.max(10, duration / target);
+  
+      const formatNumber = (num) => {
+        if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M+';
+        if (num >= 1000) return (num / 1000).toFixed(1) + 'K+';
+        return num;
+      };
+  
+      const update = () => {
+        count += Math.ceil(target / (duration / stepTime));
+        if (count >= target) {
+          statNumber.innerText = formatNumber(target);
+        } else {
+          statNumber.innerText = formatNumber(count);
+          setTimeout(update, stepTime);
+        }
+      };
+  
+      update();
+    };
+  
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters(entry.target);
+          obs.unobserve(entry.target); // only run once
+        }
+      });
+    }, { threshold: 0.4 });
+  
+    statElements.forEach(stat => observer.observe(stat));
+  </script>
+  
+  <section>
+
+    <!-- Your full-page banner/slider -->
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item1" style="--position: 1"><img src="images/1.png" alt=""></div>
+            <div class="item1" style="--position: 2"><img src="images/2.png" alt=""></div>
+            <div class="item1" style="--position: 3"><img src="images/3.png" alt=""></div>
+            <div class="item1" style="--position: 4"><img src="images/4.png" alt=""></div>
+            <div class="item1" style="--position: 5"><img src="images/5.png" alt=""></div>
+            <div class="item1" style="--position: 6"><img src="images/6.png" alt=""></div>
+            <div class="item1" style="--position: 7"><img src="images/7.png" alt=""></div>
+            <div class="item1" style="--position: 8"><img src="images/8.png" alt=""></div>
+            <div class="item1" style="--position: 9"><img src="images/9.png" alt=""></div>
+            <div class="item1" style="--position: 10"><img src="images/10.png" alt=""></div>
+        </div>
+        <div class="content">
+            <div class="author"></div>
+            <div class="model"></div>
+        </div>
+    </div>
+    </section>
+    
+    
+    
+
+    <section class="footer-section" id="connect">
+        <div class="container" style="padding-bottom:5rem;">
+           
+            <div class="left-side">
+                <div class="title">
+                    <h1>Let's Connect</h1>
+                    <h2>👋 Don’t be shy—tap the icon and say hi!</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <p class="txt">
+                    <ul class="social-icons">
+                        <li>
+                          <a href="https://www.linkedin.com/in/riya-dadhich6/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span class="tooltip">LinkedIn</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/riyadadhich._/?hl=en" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span class="tooltip">Instagram</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="mailto:rriiyyaa11220@gmail.com" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                            <span class="tooltip">Gmail</span>
+                          </a>
+                        </li>
+                      </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="container sides">
+            <div class="left-side">
+                <div class="logo">
+                    <img src="./img/star.png" class="star" alt="">
+                    <div>&copy; Riya Dadhich. All rights reserved</div>
+                </div>
+
+               
+            </div>
+            <div class="right-side">
+                <p>Designed by <a href="https://www.linkedin.com/in/nitish-kumar-516aba28b/" class="footer-link">Nitish Kumar</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.getElementById('hamburger');
+            const menu = document.getElementById('menu');
+        
+            hamburger.addEventListener('click', () => {
+                menu.classList.toggle('active');
+            });
+        });
+        </script>
+        
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" ></script>
+<script src="./script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script src="main.js"></script>
+
+</html>
